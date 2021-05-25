@@ -1,0 +1,14 @@
+{
+    "jokes": [
+        {"id":1, "text": "Geçen Bir taksi çevirdim hala dönüyor"},
+        {"id":2, "text": "Bir gün dönersin diye ayran aldım"},
+        {"id":3, "text":  "İçime sindi dışımda barbie"},
+        {"id":4, "text":  "Çocuğum sınav kağıdına baktım yazın okunmuyor.  -Hocam o zaman kışın okuyun."},
+        {"id":5, "text":  "Yazın okunmuyor evladım -Hocam o zaman kışın okuyun."},
+        {"id":6, "text": "-atla gel hemen. -at yok taxiyle gelsem?"},
+        {"id":7, "text": "-sinuslerim agriyo yaa  -kosinuslerin saglam mi hoehaehe"},
+        {"id":8, "text": "sıkı giyin don jackson"},
+        {"id":9, "text": "saçmalanmaz,saç taranır!"},
+        {"id":10, "text": "-what do you do -yatti uyudu"}
+    ]
+}
