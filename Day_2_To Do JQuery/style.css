@@ -1,0 +1,97 @@
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, purple, yellow);
+}
+
+#todo  {
+    display:flex;
+    flex-direction: column;
+    background-color: royalblue;
+    padding: 15px;
+    border-radius: 15px;
+    width: 50vh;
+    height: 50vh;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.36); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.36);
+}
+
+#todo input{
+border-radius: 10px;
+border: none;
+background-color: grey;
+color:lightgrey;
+height: 35px;
+width: 35vh;
+
+}
+#todo input:focus{
+    outline: none;
+}
+
+#todo input::placeholder {
+    color:lightgrey;
+    
+}
+
+ul .checked{
+    background: rgb(91, 180, 91)!important;
+    text-decoration: line-through;
+    transition: .2s;
+}
+
+
+#todo ul {
+    overflow: scroll;
+
+}
+
+
+
+#todo ul li  {
+    display:flex;
+    justify-content: space-between;    
+    background:#eee;
+    color :#333;
+    border-radius: 10px;
+    margin:15px ;
+    padding : 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+#todo ul .check , .delete{
+cursor: pointer;
+}
+
+
+.input{
+   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.scroll {
+    overflow: scroll;
+    background-color: royalblue;
+ }
+ .scroll::-webkit-scrollbar {
+     width: 12px;
+     background-color: royalblue;
+ }
+ 
+ .scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.0); 
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
