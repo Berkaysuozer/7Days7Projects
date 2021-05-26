@@ -1,0 +1,34 @@
+img{
+    height: 130px;
+}
+
+body{
+    background-color: rgb(209, 199, 199)!important;
+}
+.img{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:40px;
+}
+
+.pokemon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: burlywood;
+    margin: 10px;
+    height: 250px;
+     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.48); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.48);
+    transition: 1s;
+}
+
+.pokemon:hover{
+    transform: rotate(360deg);
+    background-color: red;
+    
+}
