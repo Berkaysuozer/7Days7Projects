@@ -1,0 +1,19 @@
+.country{
+   border:none;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.5);
+    transition: .5s;
+    background-color: lightskyblue;
+    list-style-type: none;
+   
+  
+  }
+  
+ .country:hover{
+  background-color: lightseagreen;
+  transform: scale(1.1);
+ }
+   
+    
