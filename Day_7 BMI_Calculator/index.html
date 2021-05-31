@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <div id="calculator">
+        <p>➗</p>
+        <h2>CALCULATE YOUR BMI</h2>
+        <label for="height"><strong>HEIGHT</strong></label>
+        <input type="text" id="height" placeholder="180" required>
+        <label for="weight"><strong>WEIGHT</strong></label>
+        <input type="text" id="weight" placeholder="80" required>
+        <button><strong>CALCULATE</strong></button>
+        <h1>BMI : <H1 id='result'></H1></h1>
+        <h3>0 ila 18,4 BMI: Zayıf. <br>
+            18.5 ila 24.9 BMI: Normal. <br>
+            25 ila 29.9 BMI: Fazla Kilolu. <br>
+            30 ila 44.9BMI: Şişman. <br>            
+            45+ BMI: Aşırı Şişman.</h3>
+    </div>
+
+
+
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
